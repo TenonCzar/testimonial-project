@@ -53,6 +53,12 @@ body {
   width: 2.5rem;
   border: 1px solid #fff;
 }
+.dan h4,
+.patrick h4,
+.jonat h4 {
+  color: #fff;
+  font-size: 16px;
+}
 .name {
   color: var(--Lightgray);
 }
@@ -64,10 +70,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
-.dan h3 {
-  color: #fff;
-  font-size: 16px;
 }
 .testi1 {
   color: var(--Lightgray1);
@@ -83,10 +85,6 @@ body {
   flex-direction: column;
   gap: 2rem;
   border-radius: 8px;
-}
-.jonat h3 {
-  color: #fff;
-  font-size: 16px;
 }
 .testi2 {
   color: var(--Lightgray1);
@@ -128,10 +126,6 @@ body {
 .patrick .tag {
   color: var(--Lightgray2);
   font-size: 10px;
-}
-.patrick h3 {
-  font-size: 16px;
-  color: #fff;
 }
 .testi4 {
   color: var(--Lightgray1);
@@ -227,14 +221,14 @@ body {
     margin: auto;
     padding-bottom: 0;
   }
+  h4 {
+    font-size: 17px;
+  }
   /* STYLING DAN */
   .dan {
     grid-row: 1;
     grid-column: 1/6;
     height: max-content;
-  }
-  .dan h3 {
-    font-size: 17px;
   }
   .testi1 {
     font-size: 12.5px;
@@ -244,9 +238,6 @@ body {
     grid-row: 1;
     grid-column: 6/8;
     height: fit-content;
-  }
-  .jonat h3 {
-    font-size: 17px;
   }
   .testi2 {
     font-size: 14px;
@@ -258,9 +249,6 @@ body {
     width: 20rem;
     height: fit-content;
   }
-  .kira h3 {
-    font-size: 18px;
-  }
   .testi5 {
     font-size: 15.5px;
   }
@@ -269,9 +257,6 @@ body {
     grid-column: 1/3;
     grid-row: 2;
     height: fit-content;
-  }
-  .jeanet h3 {
-    font-size: 20px;
   }
   .testi3 {
     font-size: 15px;
@@ -282,9 +267,6 @@ body {
     grid-row: 2;
     height: fit-content;
     padding: 3rem;
-  }
-  .patrick h3 {
-    font-size: 16px;
   }
   .testi4 {
     font-size: 12px;
